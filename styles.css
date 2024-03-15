@@ -2,6 +2,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-image: url(./images/image-body.jpeg);
+  background-size: cover; /* Cubre toda la pantalla */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  
 }
 
 header {
@@ -9,9 +14,10 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
-  background-color: #32927a;
+  background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
-  padding: 20px;
+  position: static;
+
 }
 
 header h1 {
@@ -39,14 +45,16 @@ section {
 }
 
 section#inicio {
-  background-color: #f2f2f2;
+  color: #f2f2f2;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 section#productos{
   display: flex;
   justify-content: space-between;
   text-align: center;
+  color: #fff;
 }
 
 section#productos .producto {
